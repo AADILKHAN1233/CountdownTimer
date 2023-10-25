@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('https://i.vimeocdn.com/video/612917789-fa8f01495ab8a3751b4ebedac733aaded1c737289b2e45a0fc8f7d76ef93972b-d_640x360.jpg');
+    background-size: cover;
+    position: absolute;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* color: white; */
+    align-items: center;
+    flex-direction: column;
+    /* overflow-x: hidden; */
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.title {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col {
+    width: 1000px;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    border: 1px;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
